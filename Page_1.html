@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Page_1_introduction</title>
+<link href="https://dl.dropbox.com/s/ghqve0r2mmkgxcy/Page_1.css?dl=0" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,100" rel="stylesheet" type="text/css">
+</head>
+
+<body> 
+
+
+<script type='text/javascript'>
+window.onload = function()
+ {
+	var UserName = prompt("Welcome, what is your Name?");
+
+ if  (UserName !== null && UserName.length <= 20)
+  {
+	  document.getElementById("h1").innerHTML = ("Welcome, " + UserName +"!");
+ }
+ else
+  {
+	document.getElementById("h1").innerHTML = ("Introduction");  
+  }
+ }
+</script>
+ 
+<div class="intro">
+ <h1 id="h1">      </h1>
+<p> This is my product dedicated to my personal project. During the course of the personal project, it was my goal to explore the techniques and tools employed by the companies to sell their products. With as global context Globalization and sustainability focussing on Markets, commodities, and commercialisation. I think my goal fits within this global context because companies and markets are the drivers of globalization. For example one of the major reason the European union was founded was to create a single market, which brought a lot of economic benefits. Another example; if a new oil spot is found anywhere in the world, everyone would feel the effects, since oil prices will decline to make things like the price of gasoline cheaper. the reason I choose this topic is because i have always been interested in economy like subjects like stock markets and marketing. I found that personal project was great way to expand my knowledge on this topic. My research consist of 2 parts first i started gathering knowledge by reading articles, reports and watching documentaries and then a second part where I applied  and tested all my new learned techniques by persuading people to join the Gooische run and thereby supporting Fight Cancer (More about fight Cancer bellow). As my final product i have decided  to make a website partly because i always wanted to learn coding and this was a great opportunity to do so but mainly because I think that a website is a great way to communicate my research finding in a organised manner.  
+</p> 
+</div>
+<div class="nav"> 
+ <ul> 
+ <li> <a href="What.html" class="btn"> What did i do?</a></li>
+ <li> <a href="Marketing.html" class="btn"> Marketing techniques</a></li>
+ <li> <a href="https://docs.google.com/document/d/1AJU-4wJEEc9lhOxgBaYPUyuvsU9TIrTrHkZ-i0nlt_k/edit?usp=sharing" class="btn"> Research</a></li>
+  </ul>
+   </div>
+   
+   <div class="fight"> 
+ <img src="http://thetisgendt.eu/wordpress/wp-content/uploads/2016/04/fight_cancer_logo-729479.jpg" height="128" width="196">
+ <h2> Fight Cancer</h2>
+ <p> Fight Cancer is a foundation with as their motto ‘Love life. Fight Cancer’ it focusses mainly to inspire Young people to take action for cancer. You can help fight cancer by for example set-up your own action to raise money, donate money or becoming a volunteer for fight cancer. Fight cancers ultimate dream and goal is to defeat cancer!  </p>
+ <a class="btn" id="fight" href="http://www.fightcancer.nl/">Learn More</a>
+   </div>
+</body>
+</html>
